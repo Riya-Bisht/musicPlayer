@@ -18,7 +18,7 @@ body{
 
     display:flex;
     flex-direction: column;
-    align-items:center; /*diff b/w both?*/
+    align-items:center; /*?*/
     justify-content:center;
 
 }
@@ -27,14 +27,14 @@ body{
 
 background-color: white;
 border-radius: 15px;
-box-shadow: 0 20px 20px 0 rgba(252,169,169,0.6);/* what is offset?
+box-shadow: 0 20px 20px 0 rgba(252,169,169,0.6);/* offset?
 */
 
 
 
 display:flex; /*PUTING EVERYTHING SIDE BY SIDE*/
 padding:20px 30px; /*margin*/
-position:relative; /*why we need this*/
+position:relative; /*??*/
 margin:100px 0;
 z-index:10;
 
@@ -49,8 +49,7 @@ z-index:10;
     width:110px;
 }
 
-/*why do we have this after selector?*/
-.img-container::after{
+.img-container::after{ /*??*/
     content:'';
     background-color: white;
     height: 20px;
@@ -59,7 +58,7 @@ z-index:10;
     left: 50%;
     bottom:50%;
     border-radius:50%;
-    transform: translate(-50%, -50%);/*x and y axis*/
+    transform: translate(-50%, -50%);/*x nd y axis*/
 }
 
 
@@ -79,8 +78,8 @@ animation-play-state:paused;
 
 .music-container.play .img-container img {
 
-animation-play-state:running;/*it will run when the music will be played
-*/
+animation-play-state:running;
+
 }
 
 @keyframes rotate{
