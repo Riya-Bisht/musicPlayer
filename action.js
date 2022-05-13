@@ -9,7 +9,7 @@ const title=document.querySelector('#title');
 const cover=document.querySelector('#cover');
 
 //song title:
-const songs=['hey','summer','ukulele','ALEKUN_BAKA','YLIA_Again','Yuika_BczILOveYou']
+const songs=['hey','summer','ukulele','ALEKUN_BAKA','YLIA_Again','Yuika_BczILoveYou']
 
 //keep track of songs:
 
