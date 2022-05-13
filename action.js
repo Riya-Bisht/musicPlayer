@@ -9,11 +9,11 @@ const title=document.querySelector('#title');
 const cover=document.querySelector('#cover');
 
 //song title:
-const songs=['hey','summer','ukulele']
+const songs=['hey','summer','ukulele','ALEKUN_BAKA','YLIA_Again','Yuika_BczILOveYou']
 
 //keep track of songs:
 
-let songIndex=2 /*let keyword==? */
+let songIndex=5 /*let keyword==? */
 
 //initially load the song into DOM:
 
